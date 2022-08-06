@@ -364,7 +364,7 @@
   #define HEATER_6_MAXTEMP HIGH_TEMP_THERMISTOR_TEMP
   #define HEATER_7_MAXTEMP HIGH_TEMP_THERMISTOR_TEMP
 #else
-  #define HEATER_0_MAXTEMP 275
+  #define HEATER_0_MAXTEMP 300
   #define HEATER_1_MAXTEMP HEATER_0_MAXTEMP
   #define HEATER_2_MAXTEMP HEATER_0_MAXTEMP
   #define HEATER_3_MAXTEMP HEATER_0_MAXTEMP
@@ -386,7 +386,7 @@
  * (especially before PID tuning). Setting the target temperature too close to MAXTEMP guarantees
  * a MAXTEMP shutdown! Use these values to forbid temperatures being set too close to MAXTEMP.
  */
-#define HOTEND_OVERSHOOT 15   // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
+#define HOTEND_OVERSHOOT 20   // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
 #define BED_OVERSHOOT    10   // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
 #define COOLER_OVERSHOOT  2   // (°C) Forbid temperatures closer than OVERSHOOT
 

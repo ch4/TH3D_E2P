@@ -29,7 +29,7 @@
 //#define V42X_TMC220X_DRIVERS //"A" or "B" Code on SD Slot
 
 //------------------------------ V4.2.3 Board -------------------------------
-//#define ENDER2_PRO_V423_BOARD
+#define ENDER2_PRO_V423_BOARD
 
 //------------------------------ V4.2.7 Board --------------------------------
 //#define ENDER3_V427_BOARD
