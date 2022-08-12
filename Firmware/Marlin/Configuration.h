@@ -258,7 +258,7 @@
 //#define USER_PRINTER_NAME "CHANGE ME"
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
-//#define SLOWER_HOMING
+#define SLOWER_HOMING
 
 // Axis Direction Settings
 // If you need to reverse the direction of a motor uncomment the below option for that axis.
@@ -895,7 +895,7 @@
     #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 95 }
   #endif
 
-  #define SHOW_BOOTSCREEN
+  //#define SHOW_BOOTSCREEN
 
   #define EXTRUDERS 1
 
